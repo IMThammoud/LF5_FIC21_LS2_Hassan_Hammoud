@@ -2,7 +2,7 @@ package schule;
 import java.util.Scanner;
 
 class FahrkartenAutomatLoesung {
-
+	int gitPush;
 	public static double fahrkartenbestellungErfassen() {
     double[] ticketpreise = {2.90, 3.30,3.60,1.90,8.60,9.00,9.60,23.50,24.30,24.90};   
     int[] anzahlTickets = new int[ticketpreise.length];
